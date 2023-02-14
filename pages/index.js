@@ -1,10 +1,8 @@
 import Head from 'next/head'
-// import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import { Box, Heading, PageLayout, Placeholder } from '@primer/react'
+import { Box, Heading, PageLayout } from '@primer/react'
 import Navbar from '../components/Header';
-const inter = Inter({ subsets: ['latin'] })
-import { theme } from '@primer/react'
+
+
 
 
 export default function Home() {
